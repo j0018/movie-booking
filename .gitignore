@@ -1,0 +1,15 @@
+# Composer dependencies (rebuild with `composer install`)
+/vendor/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Local env / secrets (if you split these out later)
+.env
+config.local.php
